@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*/__pycache__/
+*/*/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -12,6 +14,8 @@ build/
 develop-eggs/
 dist/
 downloads/
+download/*
+database/*.db
 eggs/
 .eggs/
 lib/
@@ -127,3 +131,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+constants/config.py
